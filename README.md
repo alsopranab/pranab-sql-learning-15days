@@ -55,11 +55,21 @@ Every single file in this repo was written with care, clarity and honesty.
 
 ##  How to Use This Repository
 
-1. Clone or download the repo  
-2. Open any `.sql` file  
-3. Run it in MySQL Workbench or server  
-4. Learn, tweak and practise  
-5. Share with anyone who is learning SQL  
+Clone or download the repo
+
+Open any .sql file
+
+Run it in MySQL Workbench or local MySQL server
+
+Learn, tweak and practise
+
+Share with anyone who is learning SQL
+
+Example:
+
+SELECT cust_name, country, credit_limit
+FROM customer_data
+WHERE credit_limit > 50000;
 
 ---
 
